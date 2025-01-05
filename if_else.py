@@ -14,4 +14,4 @@ elif age <18:
     print("you are child")
 
 else:
-    print("hey, something went wrong !!!");
+    print("hey, something went wrong !!!")

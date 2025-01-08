@@ -14,6 +14,21 @@ Agenda :
     3)Sliceing in list
 '''
 
+
+'''
+append(x)	        Adds x to the end of the list.
+extend(iterable)	Adds all elements of an iterable to the list.
+insert(i, x)	    Inserts x at index i.
+remove(x)	        Removes the first occurrence of x.
+pop([i])	        Removes and returns the element at index i (last if omitted).
+clear()	            Removes all elements.
+index(x)	        Returns the index of the first occurrence of x.
+count(x)	        Returns the number of occurrences of x.
+sort()	            Sorts the list in ascending order.
+reverse()	        Reverses the order of the list.
+copy()	            Returns a shallow copy of the list.
+'''
+
 list = [3, 4 , 5 , "aditya"]
 print(list) 
 print(list[-3])

@@ -16,17 +16,17 @@ Agenda :
 
 
 '''
-append(x)	        Adds x to the end of the list.
-extend(iterable)	Adds all elements of an iterable to the list.
-insert(i, x)	    Inserts x at index i.
-remove(x)	        Removes the first occurrence of x.
-pop([i])	        Removes and returns the element at index i (last if omitted).
-clear()	            Removes all elements.
-index(x)	        Returns the index of the first occurrence of x.
-count(x)	        Returns the number of occurrences of x.
-sort()	            Sorts the list in ascending order.
-reverse()	        Reverses the order of the list.
-copy()	            Returns a shallow copy of the list.
+1) append(x)	        Adds x to the end of the list.
+2) extend(iterable)	    Adds all elements of an iterable to the list.
+3) insert(i, x)	        Inserts x at index i.
+4) remove(x)	        Removes the first occurrence of x.
+5) pop([i])	            Removes and returns the element at index i (last if omitted).
+6) clear()	            Removes all elements.
+7) index(x)	            Returns the index of the first occurrence of x.
+8) count(x)	            Returns the number of occurrences of x.
+9) sort()	            Sorts the list in ascending order.
+10) reverse()	        Reverses the order of the list.
+11) copy()	            Returns a shallow copy of the list.
 '''
 
 list = [3, 4 , 5 , "aditya"]
@@ -47,9 +47,76 @@ else:
 
 
 #by sliceing in list
-my_list = [10, 20, 30, 40, 50]
+my_list = [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
 print(my_list[1:4])  # Output: [20, 30, 40]
 print(my_list[:3])   # Output: [10, 20, 30]
 print(my_list[::2])  # Output: [10, 30, 50]
-print(my_list[::3])  # Output: [10, 30, 50]
 
+#special all indexes like for loop
+print("it skip 2 iteration :",my_list[1:9:2])  
+
+
+#insert element direct via index
+a = [1, 2, 3]
+a[1] = 20
+print(a)  # Output: [1, 20, 3]
+
+#Performing all functions operation on list
+newList = [1, 3 , 4 ,6 , 10]
+
+#Append Function
+newList.append(30)
+print(newList)
+
+#insert Function
+newList.insert(3, 5)
+print(newList)
+
+#extend function
+newList.extend([40, 77])
+print(newList)
+
+#Remove Function
+newList.remove(77)
+print(newList)
+
+#pop function
+newList.pop()
+print(newList)
+
+#index Function
+index= newList.index(3)
+print(index)
+
+#count function
+countItems = newList.count(3)
+print(countItems)
+
+#Reverse Function
+newList.reverse()
+print(newList)
+
+#Sort Function
+newList.sort()
+print(newList)
+
+#make Copy of List
+copyOfList = newList.copy()
+print(copyOfList)
+
+#clear Function
+newList.clear()
+print(newList)
+
+
+#concept of Nested List
+nested_list = [[1, 2], [3, 4], [5, 6]] 
+print(nested_list[1][1])
+
+#using Len, Max, Min, Sum in List
+print("\nCommon List Operations:")
+numbers = [3, 1, 4, 1, 5]
+print("Length of list:", len(numbers))
+print("Maximum value:", max(numbers))
+print("Minimum value:", min(numbers))
+print("Sum of elements:", sum(numbers))

@@ -119,4 +119,4 @@ numbers = [3, 1, 4, 1, 5]
 print("Length of list:", len(numbers))
 print("Maximum value:", max(numbers))
 print("Minimum value:", min(numbers))
-print("Sum of elements:", sum(numbers))
+print("Sum of elements: ", sum(numbers))

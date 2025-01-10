@@ -1,15 +1,5 @@
 
-<p align="center">
-  <a href="https://www.python.org/">
-    <img src="https://www.svgrepo.com/show/448208/python.svg" alt="Python" width="60">
-  </a>
-  <a href="https://numpy.org/">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/NumPy_logo_2020.svg/1200px-NumPy_logo_2020.svg.png" alt="NumPy" width="60">
-  </a>
-    <a href="https://pandas.pydata.org/">
-    <img src="https://pandas.pydata.org/static/img/pandas_logo.png" alt="Pandas" width="60">
-  </a>
-    <a href="https://www.tensorflow.org/">
-    <img src="https://www.tensorflow.org/images/tf_logo_social.png" alt="TensorFlow" width="60">
-  </a>
-</p>
+[![Python](https://img.shields.io/badge/python-3.x-blue.svg?style=flat-square)](https://www.python.org/)
+[![NumPy](https://img.shields.io/badge/numpy-1.x-orange.svg?style=flat-square)](https://numpy.org/)
+[![Pandas](https://shields.io/badge/pandas-1.x-green.svg?style=flat-square)](https://pandas.pydata.org/)
+[![TensorFlow](https://img.shields.io/badge/tensorflow-%3E%3D-purple.svg?style=flat-square)](https://www.tensorflow.org/)

@@ -17,13 +17,11 @@ print(stringOne.lower()) #all character to lower
 print(stringOne.swapcase()) #case swapping
 
 
-
 # 2) Alignment Method
 s = "hello"
 print(s.center(10, '-'))  
 print(s.ljust(10, '-')) 
 print(s.rjust(10, '-'))  
-
 
 
 # 3) check Methods check whearther true or false
@@ -67,12 +65,28 @@ print(s10.rstrip())
 s11= "Aditya Gaikwad"
 print(s11.find("Gaikwad"))
 
-
 #find last element of substring
 s12 = "hello world"
 print(s12.rfind("l"))
 #print(s.rfind("l", 0, 5))  we can also specify the index
 
+s13 = "banana"
+print(s.count("a"))  
+
+
+#Splitting and Joining
+
+s14 = "hello world"
+print(s14.split())  # Output: ["hello", "world"]
+
+s15 = "hello world"
+print(s15.rsplit())  # Output: ["hello", "world"]
+
+s16 = "hello\nworld"
+print(s16.splitlines())  # Output: ["hello", "world"]
+
+s17 = "-"
+print(s17.join(["hello", "world"]))  # Output: "hello-world"
 
 
 

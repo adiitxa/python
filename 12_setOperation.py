@@ -34,8 +34,12 @@ my_set = {1, 2 , 2 , 3, 4}
 print(my_set)
 
 #set using set constructur
-another_set = set([1, 2, 3, 3, 4])  
+another_set = set([1, 2, 3, 3, 4, 8, 9])  
 print(another_set)
+
+#update Function
+updateSet = another_set.update(my_set)
+print("updated :", updateSet)
 
 my_set.add(13)
 print(my_set)
@@ -75,3 +79,5 @@ print(set_a.issubset(set_b))
 
 #disjoint
 print(set_a.isdisjoint(set_b))
+
+

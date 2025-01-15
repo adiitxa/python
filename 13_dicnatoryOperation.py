@@ -19,5 +19,4 @@ for key in myDict.keys():
 
 #For Values
 
-
-
+print(myDict.values())

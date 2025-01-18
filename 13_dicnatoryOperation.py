@@ -28,3 +28,35 @@ for key, values in myDict.items():
 
 #dictionary methods :
 
+myDict1 = {23:2, 24:1, 25:3}
+myDict2 = {1 : 12, 2: 13}
+
+myDict1.update(myDict2)
+print(myDict1)
+
+myDict1.pop(24)
+print(myDict1)
+
+myDict2.popitem()
+print(myDict2)
+
+myDict.clear()
+print(myDict)
+
+#deleting key value pairs
+del myDict1[23]
+print(myDict1)
+
+#checking Existance
+print('name' in myDict1)
+
+#Advance python concepts
+#nested dictionary
+
+nested_dict = {
+
+    'dict1' :{"app":"insta", "foll":23},
+    'dict2' :{"app": "WhatsApp", "foll":65}
+}
+
+print(nested_dict['dict1']['app'])

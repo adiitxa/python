@@ -17,6 +17,14 @@ for key in myDict.keys():
     print(myDict[key])
 
 
-#For Values
+#direct adding
+myDict['post'] = "manager"
 
+#For Values
 print(myDict.values())
+
+for key, values in myDict.items():
+    print(f'{key} : {values}')
+
+#dictionary methods :
+

@@ -50,3 +50,4 @@ print(arrOne[1])
 print(arrTwo[1, 2])
 print(arrThree[0, 1, 2])
 
+print(arrThree[0, 1, 2])

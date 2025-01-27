@@ -50,4 +50,41 @@ print(arrOne[1])
 print(arrTwo[1, 2])
 print(arrThree[0, 1, 2])
 
-print(arrThree[0, 1, 2])
+#zeros
+print("\n Creating empty array with zeros")
+arr_zeros = np.zeros((5,5))
+print(arr_zeros)
+
+arr_ones = np.ones(7)
+print(arr_ones)
+
+#digonal ones identity matrix
+identity = np.eye(3)
+print(identity)
+
+#0 to 10 any random numbers
+arr_random = np.random.randint(0,10,9)
+print(arr_random)
+
+slicing = np.array([1,4,5,2,9])
+print(slicing[-1:5])
+
+#array into matrix
+arr_reshape = np.array([23,12,14,54,4,22,43,21,23])
+new_arr = np.reshape(arr_reshape,(3,3))
+print(new_arr)
+
+#3*3 matrix into flat matrix
+print("\n", arr_reshape.flatten())
+
+#array 
+
+arr_1 = np.array([1, 4, 6])
+arr_2 = np.array([5, 4, 2])
+print("\n Addition",arr_1 + arr_2)
+print("\n multiply :", arr_1*arr_2)
+print("\n Square Function :", arr_1**2)
+
+print("array concat :",np.concatenate((arr_1, arr_2)))
+
+print(np.dot(arr_1, arr_2)) #dot product of all

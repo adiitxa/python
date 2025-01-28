@@ -88,3 +88,11 @@ print("\n Square Function :", arr_1**2)
 print("array concat :",np.concatenate((arr_1, arr_2)))
 
 print(np.dot(arr_1, arr_2)) #dot product of all
+print(np.matmul(arr_1, arr_2))
+
+
+#Stastics Concepts in numpy
+
+one1 = np.array([2, 3, 5, 7, 6])
+meanValue = np.mean(one1)
+print("\n",meanValue)

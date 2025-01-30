@@ -16,26 +16,39 @@ print("\n adding a varible to array: ",arr_1 + var)
 
 print("\n array concat :",np.concatenate((arr_1, arr_2)))
 
+print()
+
+arr20 = np.array([[1, 4], [2, 5]])
+arr21 = np.array([[5, 4]])
+
+print("vertical concate :\n",np.concatenate((arr20, arr21), axis=0))
+
 #mathmatical Operations
-array
+arr3 = np.array([34, 54, 78, 90])
+print("\n maximum value :", np.max(arr3))
+print("\n minimum value:",np.min(arr3))
 
 print("\n dot product : ", np.dot(arr_1, arr_2)) #dot product of all
-print("matmul function ", np.matmul(arr_1, arr_2))
+print("\n matmul function ", np.matmul(arr_1, arr_2))
+
 
 #Broadcasting 
 arr1 = np.array([[1, 2, 3], [4, 5, 6]])
 arr2 = np.array([10, 20, 30])
 
 result = arr1 + arr2  # arr2 is broadcasted across rows
-print(result)
+print("\n",result)
 
 
-#Stastics Concepts in numpy
-one1 = np.array([2, 3, 5, 7, 6])
-meanValue = np.mean(one1)
-print("\n",meanValue)
+#fancy indexig
+arr = np.array([10, 20, 30, 40, 50])
+indices = np.array([0, 2, 4])
+print(arr[indices])
 
-two2 =np.array([1, 2, 3 ,5, 6, 9])
-medianValue = np.median(two2)
-print(medianValue)
+#boolean Masking
+arr = np.array([1, 2, 3, 4, 5, 6])
+mask = arr % 2 == 0  
+
+print(arr[mask])
+
 

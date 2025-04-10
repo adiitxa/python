@@ -2,6 +2,7 @@
 
 a = int(input("enter a number"))
 
+
 match a:
 
     case 0:

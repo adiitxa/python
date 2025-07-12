@@ -72,8 +72,6 @@ print(s12.rfind("l"))
 
 s13 = "banana"
 print(s.count("a"))  
-
-
 #Splitting and Joining
 
 s14 = "hello world"

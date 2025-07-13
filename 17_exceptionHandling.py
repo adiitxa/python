@@ -5,6 +5,7 @@ Common Exception Types
 1) SyntaxError     :       Code syntax is invalid.
 2) NameError       :       Variable is not defined.
 
+
 3) TypeError       :       Operation or function is applied to an object of inappropriate type.
 4) ValueError      :       Function receives an argument of the right type but an inappropriate value.
 5) IndexError      :       Index is out of range for a sequence.

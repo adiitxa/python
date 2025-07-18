@@ -12,6 +12,7 @@ print(stringOne.capitalize()) #only first character of string
 
 print(stringOne.title()) #capatalize the each 1st letter of string
 
+
 print(stringOne.upper()) #all charcter to upper
 print(stringOne.lower()) #all character to lower
 print(stringOne.swapcase()) #case swapping
